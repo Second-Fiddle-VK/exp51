@@ -16,3 +16,5 @@ pipeline{
         sh 'ansible-playbook ansible/playbook.yml ansible/hosts.ini'
       }
     }
+}
+}
