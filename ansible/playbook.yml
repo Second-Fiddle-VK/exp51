@@ -3,6 +3,6 @@
   become: yes
   tasks:
     - name: Copy to Tomcat
-      src: "/var/lib/jenkins/workspace/exp5/target/Maven-AnsibleWebApp.war"
+      src: "/var/lib/jenkins/workspace/exp55/target/Maven-AnsibleWebApp.war"
       dest: "/opt/tomcat/webapps/"
       remote_src: no
